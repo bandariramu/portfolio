@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramu Bandari - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+        
+        .resume {
+            max-width: 100%;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #1a365d;
+            margin-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #1a365d;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            font-size: 9pt;
+            color: #555;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Section styling */
+        .section {
+            margin-bottom: 15px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #1a365d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #1a365d;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+        
+        /* Career Objective */
+        .objective-text {
+            text-align: justify;
+            font-size: 9.5pt;
+        }
+        
+        /* Education */
+        .education-item {
+            margin-bottom: 10px;
+        }
+        
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .edu-degree {
+            font-weight: 700;
+            font-size: 10.5pt;
+            color: #333;
+        }
+        
+        .edu-year {
+            font-size: 9pt;
+            color: #666;
+            white-space: nowrap;
+        }
+        
+        .edu-school {
+            font-size: 9.5pt;
+            color: #555;
+        }
+        
+        .edu-grade {
+            font-size: 9pt;
+            color: #1a365d;
+            font-weight: 600;
+        }
+        
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 20px;
+        }
+        
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        
+        .skill-label {
+            font-weight: 600;
+            font-size: 9.5pt;
+            color: #1a365d;
+        }
+        
+        .skill-value {
+            font-size: 9.5pt;
+            color: #444;
+        }
+        
+        /* Experience/Projects */
+        .exp-item {
+            margin-bottom: 12px;
+        }
+        
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .exp-title {
+            font-weight: 700;
+            font-size: 10.5pt;
+            color: #333;
+        }
+        
+        .exp-duration {
+            font-size: 9pt;
+            color: #666;
+            white-space: nowrap;
+        }
+        
+        .exp-company {
+            font-size: 9.5pt;
+            color: #555;
+            font-style: italic;
+        }
+        
+        .exp-list {
+            margin-top: 5px;
+            padding-left: 18px;
+        }
+        
+        .exp-list li {
+            font-size: 9pt;
+            margin-bottom: 3px;
+            text-align: justify;
+        }
+        
+        /* Certifications */
+        .cert-list {
+            padding-left: 18px;
+        }
+        
+        .cert-list li {
+            font-size: 9.5pt;
+            margin-bottom: 4px;
+        }
+        
+        /* Two column layout for bottom sections */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        /* Soft Skills */
+        .soft-skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .soft-skill {
+            background: #f0f4f8;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 9pt;
+            color: #1a365d;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="name">RAMU BANDARI</h1>
+            <div class="contact-info">
+                <span class="contact-item">+91 93926 55813</span>
+                <span class="contact-item">bramu0158@gmail.com</span>
+                <span class="contact-item">Uppal, Telangana, India</span>
+                <span class="contact-item">linkedin.com/in/ramu-bandari-81a241352</span>
+                <span class="contact-item">github.com/rambandari</span>
+            </div>
+        </div>
+        
+        <!-- Career Objective -->
+        <div class="section">
+            <h2 class="section-title">Career Objective</h2>
+            <p class="objective-text">
+                Aspiring Artificial Intelligence and Machine Learning student with a solid foundation in programming, web development, and data engineering. Seeking opportunities to apply my knowledge in real-world projects and grow continuously in the tech field. Passionate about leveraging cutting-edge technologies to solve complex problems and contribute to innovative solutions.
+            </p>
+        </div>
+        
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="education-item">
+                <div class="edu-header">
+                    <div class="edu-degree">B.Tech in Artificial Intelligence and Machine Learning</div>
+                    <div class="edu-year">Expected 2027</div>
+                </div>
+                <div class="edu-school">Kamala Institute of Technology and Science (KITS), Telangana</div>
+                <div class="edu-grade">CGPA: 7.4</div>
+            </div>
+            
+            <div class="education-item">
+                <div class="edu-header">
+                    <div class="edu-degree">Intermediate (MPC)</div>
+                    <div class="edu-year">2021 - 2023</div>
+                </div>
+                <div class="edu-school">IPS Prime Jr College</div>
+                <div class="edu-grade">Percentage: 72.6%</div>
+            </div>
+            
+            <div class="education-item">
+                <div class="edu-header">
+                    <div class="edu-degree">SSC (10th)</div>
+                    <div class="edu-year">2021</div>
+                </div>
+                <div class="edu-school">Ekashila Techno School</div>
+                <div class="edu-grade">GPA: 10</div>
+            </div>
+        </div>
+        
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <span class="skill-label">Languages: </span>
+                    <span class="skill-value">C, Java, Python</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Frontend: </span>
+                    <span class="skill-value">HTML5, CSS3, JavaScript</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Database: </span>
+                    <span class="skill-value">SQL (data handling, queries)</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Cloud: </span>
+                    <span class="skill-value">AWS (Data Engineering)</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Internship Experience -->
+        <div class="section">
+            <h2 class="section-title">Internship Experience</h2>
+            
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-title">Virtual Internship - Data Engineering</div>
+                    <div class="exp-duration">10 Weeks</div>
+                </div>
+                <div class="exp-company">AWS Academy</div>
+                <ul class="exp-list">
+                    <li>Designed and built end-to-end data pipelines using AWS services including AWS Glue, S3, and Redshift</li>
+                    <li>Implemented ETL processes and managed cloud-based workflows for efficient data processing</li>
+                    <li>Gained hands-on experience with real-world data engineering tasks and best practices</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Academic Projects -->
+        <div class="section">
+            <h2 class="section-title">Academic Projects</h2>
+            
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-title">Restaurant Management Website</div>
+                    <div class="exp-duration">2024</div>
+                </div>
+                <ul class="exp-list">
+                    <li>Developed a full-stack online platform for food delivery and quick service management</li>
+                    <li>Designed engaging UI with smooth animations for enhanced user experience</li>
+                    <li>Implemented responsive design principles ensuring compatibility across all devices</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Two Column Section -->
+        <div class="two-column">
+            <!-- Certifications -->
+            <div class="section">
+                <h2 class="section-title">Certifications</h2>
+                <ul class="cert-list">
+                    <li>AWS Academy Data Engineering Virtual Internship Certificate</li>
+                </ul>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div class="section">
+                <h2 class="section-title">Soft Skills</h2>
+                <div class="soft-skills-list">
+                    <span class="soft-skill">Problem-solving</span>
+                    <span class="soft-skill">Critical thinking</span>
+                    <span class="soft-skill">Effective communication</span>
+                    <span class="soft-skill">Team collaboration</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
