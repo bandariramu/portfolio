@@ -242,9 +242,9 @@ export const testimonialsConfig: TestimonialsConfig = {
     },
     {
       quote: "A dedicated student with strong problem-solving abilities. Ram's Restaurant Management project showed great attention to detail and UI/UX skills.",
-      author: "Faculty Member",
-      role: "Professor",
-      company: "KITS",
+      author: "",
+      role: "",
+      company: "",
       image: "/images/profile.jpg",
       rating: 5,
     },
